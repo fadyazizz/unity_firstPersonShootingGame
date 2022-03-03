@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4755320005398615048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4755320005398615050}
+  - component: {fileID: 4755320005398615051}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4755320005398615050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4755320005398615048}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1911.8486, y: 94.11042, z: 1794.0305}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4755320005398615051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4755320005398615048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4930c8023e7a7c849a7dd70651990023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundEffects:
+  - name: CoreAbility
+    clip: {fileID: 8300000, guid: 3e0ceabbce320e349b2fd13883cc95f4, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: DeadEnemy
+    clip: {fileID: 8300000, guid: 66beb951bf748a7429ddb8b9bf090431, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: DeadPlayer
+    clip: {fileID: 8300000, guid: 095a746af114586458f3f11951a69eb4, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Defensive
+    clip: {fileID: 8300000, guid: d947681b8f913c1468d02c473fd03a97, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: EnemyHit
+    clip: {fileID: 8300000, guid: 96dbce2b9c9f1b54ab4d06c8d9efcabc, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: FiringBullets
+    clip: {fileID: 8300000, guid: 77a572e27f2dd17499e26128cd5f5784, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: PlayerHit
+    clip: {fileID: 8300000, guid: 6dee2cd436a85e446b3ddde35c16a9a5, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Teleport
+    clip: {fileID: 8300000, guid: 35f4a49a6c8221c4eb6e6a7e52b9fde4, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: WeaponPickup
+    clip: {fileID: 8300000, guid: 3fca0f5397db3e4489b12159eba4ad5e, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: WeaponSwitch
+    clip: {fileID: 8300000, guid: 467abe6736e73d74b9010fee717e98ed, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: ZoneIn
+    clip: {fileID: 8300000, guid: ee1bb0c11f96ca44f8a203b9ab857948, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: ZoneOut
+    clip: {fileID: 8300000, guid: 021a93ce92643b449a5d73ca5e498b1d, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: PlayerFoot
+    clip: {fileID: 8300000, guid: 5a9383dda6cabc047b7a297602e93eb4, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: EnemyFoot
+    clip: {fileID: 8300000, guid: 42e65e088b3f4374e851b8dbd38f3df9, type: 3}
+    volume: 0.488
+    source: {fileID: 0}
+    loop: 0
+  - name: Landing
+    clip: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Jump
+    clip: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: Win
+    clip: {fileID: 8300000, guid: 609b817acc1a16641a70137a835e4bf9, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: EnemyBlood
+    clip: {fileID: 8300000, guid: 4639caa19c5a76c4e905cb2c9b694318, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: PlayerBlood
+    clip: {fileID: 8300000, guid: 9487bcb9ae3d87c4f89aceab043335ad, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 0
+  music:
+  - name: MainMenu
+    clip: {fileID: 8300000, guid: f4f8bbb18a0b41945bceec3ff998a0ca, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Parkour
+    clip: {fileID: 8300000, guid: 3a61ab28305c43c4c990d4884edc969d, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Combat
+    clip: {fileID: 8300000, guid: c739560eb8b3f134199143d38ca86a84, type: 3}
+    volume: 1
+    source: {fileID: 0}
+    loop: 1
+  mute: 0
